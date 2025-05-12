@@ -43,6 +43,7 @@
     {
       "name": "Adiestramiento Canino Minis FHA",
       "position": "Desarrollador Web Freelance",
+      "url": "https://minis-fha.vercel.app",
       "startDate": "2024-03-01",
       "endDate": "2024-05-01",
       "summary": "Rediseño completo del sitio web institucional con enfoque en usabilidad, contacto directo y presencia digital.",
@@ -145,7 +146,7 @@
         "Desarrollado con Astro y TailwindCSS",
         "Diseño responsivo y SEO optimizado"
       ],
-      "url": "https://vicma.dev",
+      "url": "https://vicma.vercel.app",
       "github": "https://github.com/V1CMA-V/vicma"
     },
     {
