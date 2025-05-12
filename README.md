@@ -1,20 +1,17 @@
 
 
 <div align="center">
-<img src="logo.png" height="90px" width="auto" /> 
+<img src="VICMA-Logo-WEB.webp" height="90px" width="auto" />
 <h2>
-    <em>Résumé</em> minimalista maquetado para web y pdf
+    CV Web Personal
 </h2>
 <p>
-Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
+Un currículum vitae web moderno y minimalista, optimizado para impresión en PDF
 </p>
-
 
 <p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-
+Utiliza el estándar <a href="https://jsonresume.org/schema/">JSON Resume</a> para estructurar la información
 </p>
-
 </div>
 
 <div align="center">
@@ -33,7 +30,7 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
     <a href="https://midu.dev">
         Personal
     </a>
-   
+
 </div>
 
 <p></p>
@@ -47,34 +44,51 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 ![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
 
 </div>
+## Inspiracion
 
-<img src="portada.png"></img>
+![Inspiration](https://github.com/midudev/minimalist-portfolio-json)
 
-## 🛠️ Stack
+## 🛠️ Características
 
-- [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+- **Diseño Minimalista**: Interfaz limpia y profesional
+- **Responsive**: Adaptable a todos los dispositivos
+- **Modo Oscuro**: Cambio automático según preferencias del sistema
+- **Exportación a PDF**: Versión optimizada para impresión
+- **SEO Optimizado**: Mejor visibilidad en buscadores
+
+## 💻 Tecnologías
+
+- [**Astro**](https://astro.build/) - Framework web ultrarrápido y ligero
+- [**Typescript**](https://www.typescriptlang.org/) - Desarrollo robusto y tipado
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Navegación rápida por teclado
 
 
 ## 🚀 Empezar
 
-### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
-
-
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+### 1. Configuración Inicial
 
 ```bash
-# Activa pnpm en MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
+# Instala las dependencias
+pnpm install
 
-# Inicializa el proyecto
-pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+# O si prefieres usar npm
+npm install
 ```
 
-### 2. Añade tu contenido:
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
+### 2. Personalización
+
+Edita el archivo `cv.json` en la raíz del proyecto para actualizar tu información personal:
+
+```json
+{
+  "basics": {
+    "name": "Tu Nombre",
+    "label": "Tu Profesión",
+    "email": "tu@email.com"
+  },
+  ...
+}
+```
 ### 3. Lanza el servidor de desarrollo:
 
 ```bash
@@ -98,7 +112,7 @@ pnpm dev
 
 ## 🔑 Licencia
 
-[MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
+[MIT](LICENSE.txt) - Desarrollado con ❤️ usando Astro
 
 
 
