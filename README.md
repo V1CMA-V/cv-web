@@ -44,9 +44,10 @@ Utiliza el estándar <a href="https://jsonresume.org/schema/">JSON Resume</a> pa
 ![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
 
 </div>
+
 ## Inspiracion
 
-![Inspiration](https://github.com/midudev/minimalist-portfolio-json)
+[Inspiration](https://github.com/midudev/minimalist-portfolio-json)
 
 ## 🛠️ Características
 
